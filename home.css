@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+   gap: 60px;
+   margin-left: 1cm;
+   
+}
+.ach{
+    text-align: center;
+}
+.main-div{
+    background-color:lightskyblue;
+    border-radius: 5px;
+    overflow-x: hidden;
+    margin: 0%;
+}
+.arch{
+    display: flex;
+    gap: 100px;
+    margin: 10%;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+    background-color:lightskyblue;
+}
+.image{
+  
+}
+@media screen and (min-width:280px) and (max-width:500px){
+  .main-div{
+    flex-wrap: wrap;
+  } 
+  .arch{
+    flex-wrap: wrap;
+  } 
+  .image{
+    width: 200px;
+  }
+  .navbar{
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+  }
+}

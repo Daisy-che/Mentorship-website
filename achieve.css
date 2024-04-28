@@ -1,0 +1,52 @@
+.goals{
+    text-align: center;
+
+}
+.term{
+    background-color: lightskyblue;
+}
+body{
+    background-color:lightskyblue;
+}
+.navbar{
+    display: flex;
+    margin-left: 30%;
+    gap: 60px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    text-align: center;
+    padding: 10%;
+    border: solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:black;
+    color: white;
+    font-size: 16px;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+    .term{
+        flex-wrap: wrap;
+    }
+    .navbar{
+        flex-wrap: wrap;
+    }
+}

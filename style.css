@@ -1,0 +1,58 @@
+.form1{
+
+    text-align: center;
+    background-color: lightskyblue;
+   
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    
+     
+}
+button{
+    cursor: pointer;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+.form0{
+    background-color:lightskyblue;
+    border: solid;
+    margin-left: 0%;
+}
+input{
+
+    
+    padding: 12px 20px; 
+    margin:  0%; 
+    display: inline-block; 
+    border: 2px solid; 
+    width: 65%;
+    
+} 
+a{
+    text-decoration: none;
+}
+label{
+    margin-right: 55%;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+    .form{
+        flex-wrap: wrap;
+    }
+    .form1{
+        flex-wrap: wrap;
+    }
+    .intro{
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 200px;
+    }
+}
+
+
+

@@ -1,0 +1,49 @@
+  
+    input[type=text], 
+    input[type=password] { 
+        
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 2px solid; 
+        
+    } 
+    /* set a style for all buttons*/ 
+      
+    button { 
+        background-color:black; 
+        color: white; 
+        padding: 15px 20px; 
+        margin: 8px 0; 
+        cursor: pointer; 
+        width: 60%; 
+        text-align: center;
+    } 
+    
+      
+    
+     
+     
+      
+    .container { 
+        padding: 16px; 
+    } 
+   
+      
+    .clearfix::after { 
+        content: ""; 
+        clear: both; 
+        display: table; 
+    } 
+    /*styles for cancel button and signup button  
+      on extra small screens*/ 
+      .container{
+        background-color: bisque;
+      }
+      
+    @media screen and (max-width: 600px) { 
+        .cancelbtn, 
+        .signupbtn { 
+            width: 100%; 
+        } 
+    } 

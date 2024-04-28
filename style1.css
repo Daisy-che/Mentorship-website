@@ -1,0 +1,29 @@
+
+.form2{
+    text-align: center;
+    
+
+}
+.form4{
+    background-color: lightskyblue;
+    margin: 20%;
+
+
+    
+   
+}
+.name{
+    padding: 12px 20px; 
+    margin:  0; 
+    display: inline-block; 
+    border: 2px solid; 
+    width: 60%;
+}
+label{
+    margin-right: 55%;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+    .form4{
+        flex-wrap: wrap;
+    }
+}

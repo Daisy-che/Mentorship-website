@@ -1,0 +1,36 @@
+.profile{
+    display: flex;
+    
+    gap: 120px;
+    background-color: lightskyblue;
+    overflow-x: hidden;
+    margin: 10%;
+    justify-content: center;
+
+}
+.main-div{
+    background-color: lightskyblue;
+   
+
+}
+body{
+    background-color: lightskyblue;
+}
+.navbar{
+display: flex;
+margin-left: 30%;
+gap: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+.profile{
+            flex-wrap: wrap;
+        }
+        .navbar{
+            flex-wrap: wrap;
+            grid-template-columns: auto;
+        }
+ }
