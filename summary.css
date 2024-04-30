@@ -1,0 +1,15 @@
+.book{
+  display: flex;
+  margin-left: 40%;
+  gap: 50px;
+}
+body{
+    background-color: lightskyblue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    text-align: center;
+}
