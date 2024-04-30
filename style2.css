@@ -30,7 +30,7 @@ a{
             flex-wrap: wrap;
         }
         .navbar{
-            flex-wrap: wrap;
-            grid-template-columns: auto;
+            display: flex;
+            flex-direction: column;
         }
  }

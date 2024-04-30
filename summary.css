@@ -5,6 +5,7 @@
 }
 body{
     background-color: lightskyblue;
+    margin: 5%;
 }
 a{
     text-decoration: none;
@@ -12,4 +13,17 @@ a{
 }
 h2{
     text-align: center;
+}
+.image{
+    text-align: center;
+}
+.moh{
+    overflow: hidden;
+    
+}
+@media screen and (min-width:280px) and (max-width:500px){
+    .book{
+        display: flex;
+        flex-direction: column;
+    }
 }
