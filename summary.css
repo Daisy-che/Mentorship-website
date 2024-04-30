@@ -16,10 +16,11 @@ h2{
 }
 .image{
     text-align: center;
+    margin-top: 5%;
 }
 .moh{
     overflow: hidden;
-    
+
 }
 @media screen and (min-width:280px) and (max-width:500px){
     .book{
